@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pfe.savfc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_01"
+        android:label="@string/Nombre_Aplicacion" >
+        <activity
+            android:name=".Act_Principal"
+            android:label="@string/Nombre_Aplicacion" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Act_RealizarRegistro"
+            android:label="@string/Act_RealizarRegistro_Label"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="pfe.savfc.ACTION_USER_PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Act_Preferencias"
+            android:label="@string/Act_preferencias_Label" >
+            <intent-filter>
+                <action android:name="pfe.savfc.ACTION_USER_PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Act_BuscarDispBT"
+            android:label="@string/Act_BuscarDispBT_Label"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Act_RegGuardados"
+            android:label="@string/Act_RegGuardados_Label" >
+            <intent-filter>
+                <action android:name="pfe.savfc.ACTION_VIEW_REGISTERS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Act_RegGuardadosMemTSD"
+            android:label="@string/Act_RegGuardadosMemTSD_Label" >
+            <intent-filter>
+                <action android:name="pfe.savfc.ACTION_VIEW_REGISTERS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Act_RegGuardadosMemTEL"
+            android:label="@string/Act_RegGuardadosMemTEL_Label" >
+            <intent-filter>
+                <action android:name="pfe.savfc.ACTION_VIEW_REGISTERS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Act_VisualizarRegistro"
+            android:label="@string/Act_VisualizarRegistro_Label" >
+        </activity>
+        <activity
+            android:name=".Act_ProcesarReg"
+            android:label="@string/Act_ProcesarRegistro_Label" >
+        </activity>
+    </application>
+
+</manifest>

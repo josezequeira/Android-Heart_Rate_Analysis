@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ly_configBT_linearLayout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    
+    <TextView
+    	android:id="@+id/ly_BuscarDispBT_titulo_disp_emparejados"
+    	android:text="@string/ly_BuscarDispBT_lista_DispEmparejados"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+        android:background="#060606"
+        android:textColor="#fff"
+        android:paddingLeft="5dp"
+    ></TextView>
+    
+    <ListView
+    	android:id="@+id/ly_BuscarDispBT_disp_emparejados"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:stackFromBottom="true"
+        android:layout_weight="1"
+    ></ListView>
+    
+    <TextView
+    	android:id="@+id/ly_BuscarDispBT_titulo_nuevos_disp"
+    	android:text="@string/ly_BuscarDispBT_DispEncontrados"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+        android:background="#060606"
+        android:textColor="#fff"
+        android:paddingLeft="5dp"
+    ></TextView>
+    
+    <ListView
+    	android:id="@+id/ly_BuscarDispBT_nuevos_disp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:stackFromBottom="true"
+        android:layout_weight="1"
+    ></ListView>
+    
+    <Button
+    	android:id="@+id/ly_BuscarDispBT_Boton_Buscar"
+    	android:text="@string/ly_BuscarDispBT_lista_BuscarDisp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    ></Button>
+    
+</LinearLayout>

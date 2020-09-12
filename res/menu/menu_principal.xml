@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:id="@+id/menu_pricipal_preferencias"
+		android:icon="@drawable/ic_menu_settings"
+    	android:title="@string/Preferencias" />
+	<item
+		android:id="@+id/menu_pricipal_salir"
+		android:icon="@drawable/ic_menu_exit"
+		android:title="@string/Salir" />
+</menu>

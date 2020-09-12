@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings en español -->
+<resources>
+
+    <string name="Nombre_Aplicacion">Análisis de VFC</string>
+
+    <!-- Globales -->
+    <string name="Preferencias">Preferencias</string>
+    <string name="Salir">Salir</string>
+    <string name="En_la_memoria_del_TEL">En la memoria del Telefono</string>
+    <string name="No_se_puede_leer_RegistroTSD">ERROR! No se puede leer el registro de la tarjeta SD</string>
+    <string name="Animacion_Inhalar">Inhalar</string>
+    <string name="Animacion_Exhalar">Exhalar</string>
+    <string name="DescripcionContenido">Transpacenias</string>
+
+    <!-- Actividad Realizar Registro -->
+    <string name="Act_RealizarRegistro_Label">Registro de VFC</string>
+    <string name="Act_RealizarRegistro_Inicializando">Inicializando&#8230;</string>
+    <string name="Act_RealizarRegistro_Conectado_A">Conectado a </string>
+    <string name="Act_RealizarRegistro_Conectando">Conectando&#8230;</string>
+    <string name="Act_RealizarRegistro_NoConectado">Detenido y No Conectado</string>
+    <string name="ly_RealizarRegistro_Estado">Estado:</string>
+    <string name="ly_RealizarRegistro_BateriaCarga">Carga batería sensor:</string>
+    <string name="ly_RealizarRegistro_BateriaValor">00</string>
+    <string name="ly_RealizarRegistro_BateriaUnidades">%</string>
+    <string name="ly_RealizarRegistro_CronometroTexto">Tiempo de registro:</string>
+    <string name="ly_RealizarRegistro_CronometroValor">Cronometro</string>
+    <string name="ly_RealizarRegistro_ActividadTexto">Actividad previa al registro:</string>
+    <string name="ly_RealizarRegistro_ActividadValor">~~~</string>
+    <string name="ly_RealizarRegistro_FCTexto">FC:</string>
+    <string name="ly_RealizarRegistro_FCValor">00</string>
+    <string name="ly_RealizarRegistro_FCUnidades">lpm</string>
+    <string name="ly_RealizarRegistro_LatidosTexto">Numero de latidos:</string>
+    <string name="ly_RealizarRegistro_LatidosValor">00</string>
+    <string name="ly_RealizarRegistro_TRRTexto">Tiempo latidos</string>
+    <string name="ly_RealizarRegistro_TRRValor">00</string>
+    <string name="ly_RealizarRegistro_TRRUnidades">ms</string>
+    <string name="ly_RealizarRegistro_BotonIniregTexto">Iniciar Registro</string>
+
+    <!-- Actividad Registros Guardados -->
+    <string name="Act_RegGuardados_Label">Ver registros guardados</string>
+    <string name="ly_RegGuardados_lista_Texto">No hay registros en la memoria</string>
+
+    <!-- Actividad Registros Guardados en la memoria del telefono -->
+    <string name="Act_RegGuardadosMemTEL_Label">Registros en el telefono</string>
+
+    <!-- Actividad Registros Guardados en la tarjeta SD -->
+    <string name="Act_RegGuardadosMemTSD_Label">Registros en la tarjeta SD</string>
+
+    <!-- Actividad Buscar Dispositivo Bluetooth -->
+    <string name="Act_BuscarDispBT_Label">Buscar Dispositivos Bluetooth</string>
+    <string name="Act_BuscarDispBT_NingunDispEmparejado">Ningun dispositivo ha sido emparejado</string>
+    <string name="Act_BuscarDispBT_EscaneandoDispositivo">Escaneando dispositivos&#8230;</string>
+    <string name="Act_BuscarDispBT_SeleccionarDispositivo">Seleccione el dispositivo a conectar</string>
+    <string name="Act_BuscarDispBT_NingunDispEncontrado">Ningun dispositivo encontrado</string>
+    <string name="ly_BuscarDispBT_lista_DispEmparejados">Dispositivos Emparejados</string>
+    <string name="ly_BuscarDispBT_DispEncontrados">Dispositivos Encontrados</string>
+    <string name="ly_BuscarDispBT_lista_BuscarDisp">Buscar Dispositivos</string>
+
+    <!-- Actividad Visualizar Registro -->
+    <string name="Act_VisualizarRegistro_Label">Visualizar Registro</string>
+
+    <!-- Actividad Procesar Registro -->
+    <string name="Act_ProcesarRegistro_Label">Análisis del Registro</string>
+    <string name="ly_ProcesarRegistro_Unidad_ms">ms</string>
+    <string name="ly_ProcesarRegistro_Unidad_ms2">ms^2</string>
+    <string name="ly_ProcesarRegistro_Valor">~~~</string>
+    <string name="ly_ProcesarRegistro_DatosUsuario_Titulo">Datos del Usuario</string>
+    <string name="ly_ProcesarRegistro_DatosUsuario_ID_Texto">ID:</string>
+    <string name="ly_ProcesarRegistro_DatosUsuario_Sexo_Texto">Sexo:</string>
+    <string name="ly_ProcesarRegistro_DatosUsuario_Edad_Texto">Edad:</string>
+    <string name="ly_ProcesarRegistro_DatosUsuario_Peso_Texto">Peso:</string>
+    <string name="ly_ProcesarRegistro_DatosReg_Titulo">Datos del Registro</string>
+    <string name="ly_ProcesarRegistro_FechaHora_Texto">Fecha y Hora:</string>
+    <string name="ly_ProcesarRegistro_DuracionReg_Texto">Duración:</string>
+    <string name="ly_ProcesarRegistro_ActividadPreviaReg_Texto">Actividad previa:</string>
+    <string name="ly_ProcesarRegistro_RespxMin_Texto">Respiración por min:</string>
+    <string name="ly_ProcesarRegistro_VelocidadMuestreo_Texto">Velocidad de muestreo:</string>
+    <string name="ly_ProcesarRegistro_VelocidadMuestreo_Valor">Intervalos R-R</string>
+    <string name="ly_ProcesarRegistro_AnalisisSimple_Titulo">Parámetros Aritmeticos</string>
+    <string name="ly_ProcesarRegistro_NumeroLatidos_Texto">Número de latidos:</string>
+    <string name="ly_ProcesarRegistro_RRmaximo_Texto">RR máximo:</string>
+    <string name="ly_ProcesarRegistro_RRminimo_Texto">RR mínimo:</string>
+    <string name="ly_ProcesarRegistro_RRpromedio_Texto">RR promedio:</string>
+    <string name="ly_ProcesarRegistro_FCpromedio_Texto">Frecuencia Cadíaca promedio:</string>
+    <string name="ly_ProcesarRegistro_FCpromedio_Unidad">lpm</string>
+    <string name="ly_ProcesarRegistro_AnalisisEstadistico_Titulo">Parámetros Estadísticos</string>
+    <string name="ly_ProcesarRegistro_SDRR_Texto">SDNN:</string>
+    <string name="ly_ProcesarRegistro_RMSSD_Texto">RMSSD:</string>
+    <string name="ly_ProcesarRegistro_pNN50_Texto">pNN50:</string>
+    <string name="ly_ProcesarRegistro_pNN50_Unidad">%</string>
+    <string name="ly_ProcesarRegistro_AnalisisFrecuencia_Titulo">Parámetros Frecuenciales</string>
+    <string name="ly_ProcesarRegistro_VLF_Texto">VLF:</string>
+    <string name="ly_ProcesarRegistro_LF_Texto">LF:</string>
+    <string name="ly_ProcesarRegistro_HF_Texto">HF:</string>
+    <string name="ly_ProcesarRegistro_LFHF_Texto">LF/HF:</string>
+
+    <!-- Actividad Preferencias -->
+    <string name="Act_preferencias_Label">Preferencias de la aplicación</string>
+    <string name="ly_preferencias_DatosUsuario_Key">Datos_Usuario</string>
+    <string name="ly_preferencias_DatosUsuario_Titulo">Datos del Usuario</string>
+    <string name="ly_preferencias_ID_Usuario_Key">Id_usuario</string>
+    <string name="ly_preferencias_ID_Usuario_Titulo">Identificación</string>
+    <string name="ly_preferencias_ID_Usuario_DefaultValue">ID</string>
+    <string name="ly_preferencias_Nombre_Key">Nombres</string>
+    <string name="ly_preferencias_Nombre_Titulo">Nombres</string>
+    <string name="ly_preferencias_Nombre_DefaultValue">Nombres del usuario</string>
+    <string name="ly_preferencias_Apellido_Key">Apellidos</string>
+    <string name="ly_preferencias_Apellido_Titulo">Apellidos</string>
+    <string name="ly_preferencias_Apellido_DefaultValue">Apellidos del Usuario</string>
+    <string name="ly_preferencias_Edad_Key">Edad</string>
+    <string name="ly_preferencias_Edad_Titulo">Edad</string>
+    <string name="ly_preferencias_Edad_DefaultValue">Indique edad actual</string>
+    <string name="ly_preferencias_Genero_Dialogo_Titulo">Seleccione el sexo</string>
+    <string name="ly_preferencias_Genero_Key">Sexo</string>
+    <string name="ly_preferencias_Genero_Titulo">Selección del sexo</string>
+    <string name="ly_preferencias_Genero_DefaultValue">Seleccione su sexo</string>
+    <string name="ly_preferencias_Peso_Dialogo_Titulo">Peso en Kg</string>
+    <string name="ly_preferencias_Peso_Key">Peso</string>
+    <string name="ly_preferencias_Peso_Titulo">Peso</string>
+    <string name="ly_preferencias_Peso_DefaultValue">Introduzca peso aproximado en kg</string>
+    <string name="ly_preferencias_Actividad_Key">Seleccion_Actividad</string>
+    <string name="ly_preferencias_Actividad_Titulo">Actividad</string>
+    <string name="ly_preferencias_Actividad_Dialogo_Titulo">Seleccione Actividad</string>
+    <string name="ly_preferencias_Actividad_ListPref_Key">Actividad</string>
+    <string name="ly_preferencias_Actividad_ListPref_DefaultValue">Seleccione actividad previa al registro</string>
+    <string name="ly_preferencias_DuracionReg_Key">Duracion_Registros</string>
+    <string name="ly_preferencias_DuracionReg_Titulo">Duración del Resgistro</string>
+    <string name="ly_preferencias_DuracionReg_Dialogo_Titulo">Seleccione Duración</string>
+    <string name="ly_preferencias_DuracionReg_ListPref_Key">Duracion_Registro</string>
+    <string name="ly_preferencias_DuracionReg_ListPref_Titulo">Duración del Registro</string>
+    <string name="ly_preferencias_DuracionReg_ListPref_DefaultValue">Seleccione la duración del registro</string>
+    <string name="ly_preferencias_RespMin_Key">Respiraciones_Min</string>
+    <string name="ly_preferencias_RespMin_Titulo">Respiración por minuto</string>
+    <string name="ly_preferencias_RespMin_Dialogo_Titulo">Seleccione la velocidad</string>
+    <string name="ly_preferencias_RespMin_ListPref_Key">Resp_Min</string>
+    <string name="ly_preferencias_RespMin_ListPref_Titulo">Respiración por minuto</string>
+    <string name="ly_preferencias_RespMin_ListPref_DefaultValue">12 rpm</string>
+    <string name="ly_preferencias_Conexiones_key">Conf_Conexiones</string>
+    <string name="ly_preferencias_Conexiones_Titulo">Conexiones</string>
+    <string name="ly_preferencias_Bluetooth_Pref_Key">Bluetooth</string>
+    <string name="ly_preferencias_Bluetooth_Pref_Titulo">Bluetooth</string>
+    <string name="ly_preferencias_Bluetooth_Pref_DefaultValue">Dirección MAC del dispositivo</string>
+    <string name="ly_preferencias_Memoria_Key">Seleccion_Memoria</string>
+    <string name="ly_preferencias_Memoria_Titulo">Tarjeta SD y memoria</string>
+    <string name="ly_preferencias_Memoria_Dialogo_Titulo">Seleccione donde guardar</string>
+    <string name="ly_preferencias_Memoria_ListPref_Key">Memoria</string>
+    <string name="ly_preferencias_Memoria_ListPref_Titulo">Los registros se guardan</string>
+    <string name="ly_preferencias_Memoria_ListPref_DefaultValue">Seleccione la memoria donde se guardaran los registros</string>
+    <string name="ly_preferencias_Procesado_Key">Procesado</string>
+    <string name="ly_preferencias_Procesado_Titulo">Procesado de la señal de VFC</string>
+    <string name="ly_preferencias_Procesado_Artefactos_Key">Artefacto_Umbral</string>
+    <string name="ly_preferencias_Procesado_Artefactos_Titulo">Umbral detección artefactos</string>
+    <string name="ly_preferencias_Procesado_Artefactos_DefaultValue">100</string>
+    <string name="ly_preferencias_Procesado_Artefactos_TituloDialogo">Seleccione un umbral</string>
+    <string name="ly_preferencias_Procesado_Ventana_Key">Ventana</string>
+    <string name="ly_preferencias_Procesado_Ventana_Titulo">Ventana antes de la FFT</string>
+    <string name="ly_preferencias_Procesado_Ventana_DefaultValue">Hanning</string>
+    <string name="ly_preferencias_Procesado_Ventana_TituloDialogo">Seleccione una ventana</string>
+    <string name="ly_preferencias_Procesado_GuardarArchivos_Key">GA_Bandera</string>
+    <string name="ly_preferencias_Procesado_GuardarArchivos_Titulo">Guardar los archivos procesados</string>
+    <string name="ly_preferencias_Procesado_GuardarArchivos_DefaultValue">Desactivado</string>
+    
+    <string-array name="ly_preferencias_Procesado_GuardarArchivos_Opciones">
+        <item>Activado</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="ly_preferencias_Procesado_Ventana_Opciones">
+        <item>Rectangular</item>
+        <item>Bartlett</item>
+        <item>Blackman</item>
+        <item>Hamming</item>
+        <item>Hanning</item>
+    </string-array>
+    <string-array name="ly_preferencias_Procesado_Artefactos_Umbral">
+        <item>Sin deteccion de artefactos</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="ly_preferencias_Genero">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="ly_preferencias_Actividades">
+        <item>Reposo</item>
+        <item>Ejercicio</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="ly_preferencias_Respiracion_Minuto">
+        <item>00 rpm-libre</item>
+        <item>06 rpm</item>
+        <item>07 rpm</item>
+        <item>08 rpm</item>
+        <item>09 rpm</item>
+        <item>10 rpm</item>
+        <item>11 rpm</item>
+        <item>12 rpm</item>
+        <item>13 rpm</item>
+        <item>14 rpm</item>
+        <item>15 rpm</item>
+        <item>16 rpm</item>
+        <item>17 rpm</item>
+        <item>18 rpm</item>
+        <item>19 rpm</item>
+        <item>20 rpm</item>
+    </string-array>
+    <string-array name="ly_preferencias_Memorias">
+        <item>En la memoria del Telefono</item>
+        <item>En la tarjeta SD</item>
+    </string-array>
+    <string-array name="ly_preferencias_DuracionRegistros">
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+    </string-array>
+
+    <!-- Dialogos -->
+    <string name="Dialogo_Salir_Texto">¿Está seguro que desea salir?</string>
+    <string name="Dialogo_Eliminar_Texto">¿Está seguro que desea eliminar el registro?</string>
+    <string name="Dialogo_Si">Si</string>
+    <string name="Dialogo_No">No</string>
+    <string name="Dialogo_Introducir_preferencias_Titulo">Introducir Preferencias</string>
+    <string name="Dialogo_Introducir_preferencias_Texto">Ir a las preferencias  para introducir los datos necesarios 
+        												 para el registro de la variabilidad de frecuencia cardiaca, 
+        												 principalmente el dispositivo Bluetooth a conectar, la duración 
+        												 del registro y la memoria donde desea guardar los registros.</string>
+    <string name="Dialogo_Aceptar">Aceptar</string>
+    <string name="Dialogo_Cancelar">Cancelar</string>
+    <string name="Dialogo_RegGuardados_Titulo">Seleccione una opción</string>
+
+    <string-array name="Dialogo_RegGuardados_Opciones">
+        <item>Visualizar registro</item>
+        <item>Eliminar registro</item>
+        <item>Procesar registro</item>
+        <item>Enviar&#8230;</item>
+    </string-array>
+
+    <string name="Dialogo_Ayuda_Titulo">Como realizar un registro</string>
+    <string name="Dialogo_Ayuda_Boton">OK</string>
+    <string name="Dialogo_Ayuda_Siguiente">Siguiente</string>
+    <string name="Dialogo_Ayuda_Mensaje_1_3">1) Humedecer con agua los electrodos en la banda elástica.\n
+        									 2) Conectar el sensor HxM en la banda elástica.\n
+        									 3) Poner la banda elástica alrededor del tórax.</string>
+    <string name="Dialogo_Ayuda_Mensaje_4">4) Iniciar la opción preferencias para introducir los datos del paciente
+        									  y demás configuraciones(Actividad durante el registro, duración del 
+        									  registro, respiración por minuto&#8230;).</string>
+
+    <string name="Dialogo_Ayuda_Mensaje_5">5) Iniciar en la opción realizar registro, esperar a que la aplicación
+        									  se conecte con el sensor HxM.</string>
+
+    <string name="Dialogo_Ayuda_Mensaje_6">6) Iniciar el ejercicio ó la posición de reposo, si es el caso sincronizar 
+        									  la respiración con el sonido y/ó la barra en movimiento en pantalla.</string>
+
+    <string name="Dialogo_Ayuda_Mensaje_7_8">7) Iniciar el registro presionando el botón “Iniciar Registro”.\n
+        									 8) Una vez finalizado el registro puede ir la opción registros guardados.</string>
+    
+    <string name="Dialogo_Ayuda_Mensaje_9">9) Y seleccionando cualquiera de los registros se listan las opciones que se
+        									  pueden hacer sobre el (visualizar, eliminar, procesar ó enviar).</string>
+    
+    <!-- Toast -->
+    <string name="Toast_En_Construccion">En construcción</string>
+    <string name="Toast_BT_No_Soporta">El dispositivo no soporta Bluetooth</string>
+    <string name="Toast_BT_Activado">El Bluetooth está activado</string>
+    <string name="Toast_BT_No_Activado">El Bluetooth no está activado</string>
+    <string name="Toast_TSD_No_se_puede_leer_ni_escribir">ERROR! No se puede leer ni escribir en la Tarjeta SD</string>
+    <string name="Toast_TSD_No_se_puede_escribir">ERROR! La tarjeta SD no se puede escribir</string>
+    <string name="Toast_Eliminado_Registro">Se ha eliminado satisfactoriamente</string>
+    <string name="Toast_No_Eliminado">No se ha eliminado</string>
+    <string name="Toast_No_Opcion">ERROR! no se ha seleccionado ninguna opción</string>
+    <string name="Toast_No_Identificado_Registro">ERROR! no se ha identificado el registro a leer</string>
+    <string name="Toast_No_Hay_ClienteCorreo">No hay cliente de correo instalado</string>
+
+</resources>

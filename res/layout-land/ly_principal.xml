@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/fondo_02">
+    
+    <ImageView
+		android:id="@+id/ly_actprincipal_TranspareciaCentro"
+		android:src="@drawable/ic_transparencia"
+		android:contentDescription="@string/DescripcionContenido"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitXY"
+		android:layout_centerInParent="true"
+	></ImageView>
+	
+	<ImageView
+		android:id="@+id/ly_actprincipal_Boton_realizarregistro"
+		android:src="@drawable/ic_transparencia"
+		android:contentDescription="@string/DescripcionContenido"
+		android:layout_width="110dp"
+		android:layout_height="90dp"
+		android:scaleType="fitXY"
+		android:layout_centerHorizontal="true"
+		android:layout_above="@+id/ly_actprincipal_TranspareciaCentro"
+	></ImageView>
+	
+	<ImageView
+		android:id="@+id/ly_actprincipal_Boton_preferencias"
+		android:src="@drawable/ic_transparencia"
+		android:contentDescription="@string/DescripcionContenido"
+		android:layout_width="110dp"
+		android:layout_height="90dp"
+		android:scaleType="fitXY"
+		android:layout_centerVertical="true"
+		android:layout_toLeftOf="@+id/ly_actprincipal_TranspareciaCentro"
+		android:layout_marginRight="50dp"
+	></ImageView>
+	
+	<ImageView
+		android:id="@+id/ly_actprincipal_Boton_registrosguardados"
+		android:src="@drawable/ic_transparencia"
+		android:contentDescription="@string/DescripcionContenido"
+		android:layout_width="110dp"
+		android:layout_height="90dp"
+		android:scaleType="fitXY"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/ly_actprincipal_TranspareciaCentro"
+		android:layout_marginLeft="50dp"
+	></ImageView>
+	
+	<ImageView
+		android:id="@+id/ly_actprincipal_Boton_salir"
+		android:src="@drawable/ic_transparencia"
+		android:contentDescription="@string/DescripcionContenido"
+		android:layout_width="110dp"
+		android:layout_height="90dp"
+		android:scaleType="fitXY"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/ly_actprincipal_TranspareciaCentro"
+	></ImageView>
+	
+	<ImageView
+		android:id="@+id/ly_actprincipal_Boton_ayuda"
+		android:src="@drawable/ic_transparencia"
+		android:contentDescription="@string/DescripcionContenido"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginLeft="45dp"
+		android:layout_marginBottom="10dp"
+	></ImageView>
+    
+</RelativeLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<!-- Inicio grafica del registro -->
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="60">
+		
+		<pfe.savfc.VisualizarReg_View
+			android:id="@+id/VisualizarReg"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+		></pfe.savfc.VisualizarReg_View>
+	</LinearLayout>
+	<!-- Fin grafica del registro -->
+	
+	<!-- Inicio datos del registro -->
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="40">
+	    
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="25">
+	        <!-- Inicio ID -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_ID_Texto"
+        		android:text="@string/ly_ProcesarRegistro_DatosUsuario_ID_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_ID_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin ID -->
+	        <!-- Inicio sexo usuario -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_Sexo_Texto"
+        		android:text="@string/ly_ProcesarRegistro_DatosUsuario_Sexo_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_Sexo_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin sexo usuario -->
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/tableRow2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="25">
+	        <!-- Inicio fecha y hora -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_FechaHora_Texto"
+        		android:text="@string/ly_ProcesarRegistro_FechaHora_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_FechaHora_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin fecha y hora -->
+	        <!-- Inicio edad -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_Edad_Texto"
+        		android:text="@string/ly_ProcesarRegistro_DatosUsuario_Edad_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_Edad_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin edad -->
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/tableRow3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="25">
+	        <!-- Inicio duracion -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_DuracionReg_Texto"
+        		android:text="@string/ly_ProcesarRegistro_DuracionReg_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_DuracionReg_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin duracion -->
+	        <!-- Inicio peso -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_Peso_Texto"
+        		android:text="@string/ly_ProcesarRegistro_DatosUsuario_Peso_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_DatosUsuario_Peso_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- FIn peso -->
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/tableRow4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="25">
+	        <!-- Inicio actividad previa -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_ActividadPreviaReg_Texto"
+        		android:text="@string/ly_ProcesarRegistro_ActividadPreviaReg_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_ActividadPreviaReg_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin actividad previa -->
+	        <!-- Inicio respiración por minuto -->
+	        <TextView
+        		android:id="@+id/ly_ProcesarRegistro_RespxMin_Texto"
+        		android:text="@string/ly_ProcesarRegistro_RespxMin_Texto"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="30"
+        	></TextView>
+        	<TextView
+        		android:id="@+id/ly_ProcesarRegistro_RespxMin_Valor"
+        		android:text="@string/ly_ProcesarRegistro_Valor"
+        		android:gravity="center"
+        		android:layout_width="0dp"
+        		android:layout_height="fill_parent"
+        		android:layout_weight="20"
+        		android:layout_gravity="center"
+        	></TextView>
+	        <!-- Fin respiración por minuto -->
+	    </TableRow>
+	</TableLayout>
+	<!-- Fin datos del registro -->
+	
+	</LinearLayout>

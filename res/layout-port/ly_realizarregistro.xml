@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout	
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+    
+    <!-- Inicio estado de la conexion -->
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="5"
+    	android:orientation="horizontal">
+    	<TextView
+			android:id="@+id/ly_RealizarRegistro_Estado_Texto"
+       		android:text="@string/ly_RealizarRegistro_Estado"
+       		android:layout_width="0dp"
+       		android:layout_height="wrap_content"
+       		android:layout_weight="30"
+       		android:layout_gravity="center"
+    	></TextView>
+	    <TextView
+	       	android:id="@+id/ly_RealizarRegistro_Estado_valor"
+	       	android:text="@string/ly_ProcesarRegistro_Valor"
+	       	android:gravity="center"
+	       	android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_weight="70"
+	       	android:layout_gravity="center"
+	    ></TextView>
+    </LinearLayout>
+    <!-- Fin estado de la conexion -->
+	
+	<!-- Inicio estado de la bateria del sensor -->
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="5"
+    	android:orientation="horizontal">
+    	<TextView
+	    	android:id="@+id/ly_RealizarRegistro_Bateria_Texto"
+	    	android:text="@string/ly_RealizarRegistro_BateriaCarga"
+	    	android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="50"
+	    	android:layout_gravity="center"
+	    ></TextView>
+	    <TextView
+	    	android:id="@+id/ly_RealizarRegistro_Bateria_Valor"
+	    	android:text="@string/ly_RealizarRegistro_BateriaValor"
+	    	android:gravity="center"
+	    	android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="25"
+	    	android:layout_gravity="center"
+	    ></TextView>
+	    <TextView
+	    	android:id="@+id/ly_RealizarRegistro_Bateria_Unidades"
+	    	android:text="@string/ly_RealizarRegistro_BateriaUnidades"
+	    	android:gravity="center"
+	    	android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="25"
+	    	android:layout_gravity="center"
+	    ></TextView>
+    </LinearLayout>
+	<!-- Fin estado de la bateria del sensor -->
+	
+	<!-- Inicio cronometro -->
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="6"
+    	android:orientation="horizontal">
+    	<TextView
+	        android:id="@+id/ly_RealizarRegistro_Cronometro_Texto"
+	        android:text="@string/ly_RealizarRegistro_CronometroTexto"
+	       	android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_weight="50"
+	       	android:layout_gravity="center"
+	    ></TextView>
+	    <Chronometer
+	    	android:id="@+id/ly_RealizarRegistro_Cronometro_Valor"
+	    	android:text="@string/ly_RealizarRegistro_CronometroValor"
+	    	android:gravity="center"
+	    	android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="50"
+	    	android:layout_gravity="center"
+	    ></Chronometer>
+    </LinearLayout>
+    <!-- Fin cronometro -->
+	
+	<!-- Inicio actividad previa al registro -->
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="7"
+    	android:orientation="horizontal">
+    	<TextView
+	        android:id="@+id/ly_RealizarRegistro_Actividad_Texto"
+	        android:text="@string/ly_RealizarRegistro_ActividadTexto"
+	        android:gravity="left"
+	       	android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_weight="60"
+	       	android:layout_gravity="center"
+	    ></TextView>
+	    <TextView
+	        android:id="@+id/ly_RealizarRegistro_Actividad_Valor"
+	        android:text="@string/ly_RealizarRegistro_ActividadValor"
+	       	android:gravity="center"
+	       	android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_weight="40"
+	       	android:layout_gravity="center"
+	    ></TextView>
+    </LinearLayout>
+	<!-- Fin actividad previa al registro -->
+	
+	<!-- Inicio frecuencia cardiaca -->
+	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="10"
+    	android:orientation="horizontal">
+    	<TextView
+			android:id="@+id/ly_RealizarRegistro_FC_Texto"
+			android:text="@string/ly_RealizarRegistro_FCTexto"
+			android:textSize="30sp"
+			android:gravity="center"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="50"
+			android:layout_gravity="center"
+		></TextView>
+	    <TextView
+	      	android:id="@+id/ly_RealizarRegistro_FC_Valor"
+	       	android:text="@string/ly_RealizarRegistro_FCValor"
+	       	android:textSize="30sp"
+	       	android:gravity="left"
+	       	android:layout_width="0dp"
+	       	android:layout_height="wrap_content"
+	       	android:layout_weight="25"
+	       	android:layout_gravity="center"
+	    ></TextView>
+	    <TextView
+	        android:id="@+id/ly_RealizarRegistro_FC_Unidades"
+	        android:text="@string/ly_RealizarRegistro_FCUnidades"
+	       	android:gravity="left"
+	    	android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="25"
+	    	android:layout_gravity="center"
+	    ></TextView>
+    </LinearLayout>
+	<!-- Fin frecuencia cardiaca -->
+	
+	<!-- Inicio Grafica de la VFC -->
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="0dp"
+	android:layout_weight="25"
+	android:baselineAligned="false" >
+		
+		<!-- Inicio tiempo entre latidos -->
+		<LinearLayout
+	    	android:orientation="vertical"
+	    	android:layout_marginTop="5dp"
+	    	android:layout_width="0dp"
+	    	android:layout_height="fill_parent"
+	    	android:layout_weight="15">
+	    	<TextView
+				android:id="@+id/ly_RealizarRegistro_TRR_Texto"
+				android:text="@string/ly_RealizarRegistro_TRRTexto"
+				android:gravity="center_horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="30"
+				android:layout_gravity="bottom"
+			></TextView>
+		    <TextView
+		    	android:id="@+id/ly_RealizarRegistro_TRR_Valor"
+		    	android:text="@string/ly_RealizarRegistro_TRRValor"
+		    	android:gravity="center"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="0dp"
+		    	android:layout_weight="30"
+		    ></TextView>
+		    <TextView
+		    	android:id="@+id/ly_RealizarRegistro_TRR_Unidades"
+		    	android:text="@string/ly_RealizarRegistro_TRRUnidades"
+		    	android:gravity="center_horizontal"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="0dp"
+		    	android:layout_weight="40"
+		    ></TextView>
+	    </LinearLayout>
+		<!-- Fin tiempo entre latidos -->
+		
+		<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="85">
+			<!-- Inicio ventana de la grafica -->
+			<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_weight="80">
+				<pfe.savfc.VFC_View
+					android:id="@+id/VFC_Grafica"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_marginRight="3dp"
+				></pfe.savfc.VFC_View>
+			</LinearLayout>
+			<!-- Fin ventana de la grafica -->
+			
+			<!-- Inicio numero de latidos -->
+			<LinearLayout
+		    	android:orientation="horizontal"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="0dp"
+		    	android:layout_weight="20">
+		    	<TextView
+					android:id="@+id/ly_RealizarRegistro_Latidos_Texto"
+					android:text="@string/ly_RealizarRegistro_LatidosTexto"
+					android:gravity="right"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="60"
+					android:layout_gravity="center"
+				></TextView>
+			    <TextView
+			    	android:id="@+id/ly_RealizarRegistro_Latidos_Valor"
+			    	android:text="@string/ly_RealizarRegistro_LatidosValor"
+			    	android:gravity="left"
+			    	android:layout_width="0dp"
+			    	android:layout_height="wrap_content"
+			    	android:layout_weight="40"
+			    	android:layout_gravity="center"
+			    	android:layout_marginLeft="10dp"
+			    ></TextView>
+		    </LinearLayout>
+			<!-- Fin numero de latidos -->
+		</LinearLayout>
+		
+	</LinearLayout>
+	<!-- Fin Grafica de la VFC -->
+	
+	<!-- Inicio imagen del pulmon -->
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="32"
+		android:background="@drawable/ic_pulmon_01">
+		<TextView
+			android:id="@+id/ly_RealizarRegistro_Animacion"
+			android:text="@string/ly_ProcesarRegistro_Valor"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#505050"
+		></TextView>
+	</LinearLayout>
+	<!-- Fin imagen del pulmon -->
+	
+	<!-- Inicio boton -->
+	<Button
+   		android:id="@+id/ly_RealizarRegistro_BotonInireg_Texto"
+   		android:text="@string/ly_RealizarRegistro_BotonIniregTexto"
+   		android:layout_width="fill_parent"
+   		android:layout_height="0dp"
+   		android:layout_weight="10"
+   	></Button>
+    <!-- Fin boton -->
+</LinearLayout>

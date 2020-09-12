@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:title="@string/Act_preferencias_Label"
+  android:key="@string/Preferencias">
+    
+    <PreferenceCategory
+    	android:key="@string/ly_preferencias_DatosUsuario_Key"
+    	android:title="@string/ly_preferencias_DatosUsuario_Titulo">
+        
+        <EditTextPreference
+        	android:key="@string/ly_preferencias_ID_Usuario_Key"
+        	android:title="@string/ly_preferencias_ID_Usuario_Titulo"
+        	android:defaultValue="@string/ly_preferencias_ID_Usuario_DefaultValue"
+        ></EditTextPreference>
+        
+        <EditTextPreference 
+        	android:key="@string/ly_preferencias_Nombre_Key"
+        	android:title="@string/ly_preferencias_Nombre_Titulo" 
+        	android:defaultValue="@string/ly_preferencias_Nombre_DefaultValue"
+        ></EditTextPreference>
+        
+        <EditTextPreference 
+        	android:key="@string/ly_preferencias_Apellido_Key"
+        	android:title="@string/ly_preferencias_Apellido_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Apellido_DefaultValue"
+        ></EditTextPreference>
+        
+        <EditTextPreference
+        	android:key="@string/ly_preferencias_Edad_Key"
+        	android:title="@string/ly_preferencias_Edad_Titulo" 
+        	android:defaultValue="@string/ly_preferencias_Edad_DefaultValue"
+        ></EditTextPreference>
+        
+        <ListPreference
+        	android:entries="@array/ly_preferencias_Genero"
+        	android:entryValues="@array/ly_preferencias_Genero"
+        	android:dialogTitle="@string/ly_preferencias_Genero_Dialogo_Titulo"
+        	android:key="@string/ly_preferencias_Genero_Key"
+        	android:title="@string/ly_preferencias_Genero_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Genero_DefaultValue"
+        ></ListPreference>
+        
+        <EditTextPreference
+        	android:key="@string/ly_preferencias_Peso_Key"
+        	android:title="@string/ly_preferencias_Peso_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Peso_DefaultValue"
+        	android:dialogTitle="@string/ly_preferencias_Peso_Dialogo_Titulo"
+        ></EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+    	android:key="@string/ly_preferencias_Actividad_Key"
+    	android:title="@string/ly_preferencias_Actividad_Titulo">
+    	
+        <ListPreference
+        	android:entries="@array/ly_preferencias_Actividades"
+        	android:entryValues="@array/ly_preferencias_Actividades"
+        	android:dialogTitle="@string/ly_preferencias_Actividad_Dialogo_Titulo"
+        	android:key="@string/ly_preferencias_Actividad_ListPref_Key"
+        	android:title="@string/ly_preferencias_Actividad_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Actividad_ListPref_DefaultValue"
+        ></ListPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+    	android:key="@string/ly_preferencias_DuracionReg_Key"
+    	android:title="@string/ly_preferencias_DuracionReg_Titulo">
+        
+        <ListPreference 
+        	android:entries="@array/ly_preferencias_DuracionRegistros"
+        	android:entryValues="@array/ly_preferencias_DuracionRegistros"
+        	android:dialogTitle="@string/ly_preferencias_DuracionReg_Dialogo_Titulo"
+        	android:key="@string/ly_preferencias_DuracionReg_ListPref_Key"
+        	android:title="@string/ly_preferencias_DuracionReg_ListPref_Titulo"
+        	android:defaultValue="@string/ly_preferencias_DuracionReg_ListPref_DefaultValue"
+        ></ListPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+    	android:key="@string/ly_preferencias_RespMin_Key"
+    	android:title="@string/ly_preferencias_RespMin_Titulo">
+        
+        <ListPreference 
+        	android:entries="@array/ly_preferencias_Respiracion_Minuto"
+        	android:entryValues="@array/ly_preferencias_Respiracion_Minuto"
+        	android:dialogTitle="@string/ly_preferencias_RespMin_Dialogo_Titulo"
+        	android:key="@string/ly_preferencias_RespMin_ListPref_Key"
+        	android:title="@string/ly_preferencias_RespMin_ListPref_Titulo"
+        	android:defaultValue="@string/ly_preferencias_RespMin_ListPref_DefaultValue"
+        ></ListPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+    	android:key="@string/ly_preferencias_Conexiones_key"
+    	android:title="@string/ly_preferencias_Conexiones_Titulo">
+        
+        <Preference
+        	android:key="@string/ly_preferencias_Bluetooth_Pref_Key"
+        	android:title="@string/ly_preferencias_Bluetooth_Pref_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Bluetooth_Pref_DefaultValue"
+        ></Preference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+    	android:key="@string/ly_preferencias_Memoria_Key"
+    	android:title="@string/ly_preferencias_Memoria_Titulo">
+        
+        <ListPreference
+        	android:entries="@array/ly_preferencias_Memorias"
+        	android:entryValues="@array/ly_preferencias_Memorias"
+        	android:dialogTitle="@string/ly_preferencias_Memoria_Dialogo_Titulo"
+        	android:key="@string/ly_preferencias_Memoria_ListPref_Key"
+        	android:title="@string/ly_preferencias_Memoria_ListPref_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Memoria_ListPref_DefaultValue"
+        ></ListPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="@string/ly_preferencias_Procesado_Key"
+    	android:title="@string/ly_preferencias_Procesado_Titulo">
+        
+        <ListPreference
+        	android:entries="@array/ly_preferencias_Procesado_Artefactos_Umbral"
+        	android:entryValues="@array/ly_preferencias_Procesado_Artefactos_Umbral"
+        	android:key="@string/ly_preferencias_Procesado_Artefactos_Key"
+        	android:title="@string/ly_preferencias_Procesado_Artefactos_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Procesado_Artefactos_DefaultValue"
+        	android:dialogTitle="@string/ly_preferencias_Procesado_Artefactos_TituloDialogo"
+        ></ListPreference>
+        
+        <ListPreference
+        	android:entries="@array/ly_preferencias_Procesado_Ventana_Opciones"
+        	android:entryValues="@array/ly_preferencias_Procesado_Ventana_Opciones"
+        	android:key="@string/ly_preferencias_Procesado_Ventana_Key"
+        	android:title="@string/ly_preferencias_Procesado_Ventana_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Procesado_Ventana_DefaultValue"
+        	android:dialogTitle="@string/ly_preferencias_Procesado_Ventana_TituloDialogo"
+        ></ListPreference>
+        
+        <ListPreference
+        	android:entries="@array/ly_preferencias_Procesado_GuardarArchivos_Opciones"
+        	android:entryValues="@array/ly_preferencias_Procesado_GuardarArchivos_Opciones"
+        	android:key="@string/ly_preferencias_Procesado_GuardarArchivos_Key"
+        	android:title="@string/ly_preferencias_Procesado_GuardarArchivos_Titulo"
+        	android:defaultValue="@string/ly_preferencias_Procesado_GuardarArchivos_DefaultValue"
+        ></ListPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
